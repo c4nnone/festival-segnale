@@ -220,3 +220,42 @@ h3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+.galleria-sedi {
+  position: relative;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+.galleria-sedi .swiper-slide {
+  height: auto;
+  margin: 0;
+}
+
+.galleria-sedi img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.galleria-sedi figcaption {
+  padding: 1rem 3.5rem;
+  line-height: 1.5;
+}
+
+.galleria-sedi .swiper-button-prev,
+.galleria-sedi .swiper-button-next {
+  color: #17324d;
+}
+
+#mappa-sedi {
+  display: block;
+  width: 100%;
+  min-height: 320px;
+  height: 60vh;
+  border: 0;
+}
+
+.venues li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
