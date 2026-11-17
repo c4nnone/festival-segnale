@@ -287,5 +287,5 @@ nav[aria-label="Navigazione principale"] {
 .festival-image,
 .event-card img,
 .galleria-sedi img {
-  filter: sepia(0.25) saturate(0.85) contrast(1.08);
+  filter: sepia(0.18) saturate(0.82) contrast(0.92) brightness(1.04);
 }
