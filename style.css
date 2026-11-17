@@ -246,7 +246,7 @@ h3 {
 
 .galleria-sedi .swiper-button-prev,
 .galleria-sedi .swiper-button-next {
-  color: #17324d;
+  color: var(--colore-primario);
 }
 
 #mappa-sedi {
