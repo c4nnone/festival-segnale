@@ -167,7 +167,7 @@ h3 {
 .event-card {
   
   overflow: hidden;
-  border: 1px solid #b7c0b7;
+  border: 1px solid var(--colore-dettaglio);
   border-radius: 0.75rem;
   background: #ffffff;
 }
