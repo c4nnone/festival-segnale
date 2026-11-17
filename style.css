@@ -3,10 +3,12 @@
 
 /* Scelte comuni: ogni regola usa var() per richiamarne il valore. */
 :root {
-  --colore-primario: #6f3c78;
-  --colore-primario-scuro: #4d2854;
-  --colore-sfondo: #f5f2e9;
-  --colore-testo: #202923;
+  --colore-primario: #fc6265;       /* corallo */
+  --colore-primario-scuro: #b98dff; /* viola */
+  --colore-sfondo: #ffe9f5;         /* rosa chiaro */
+  --colore-testo: #202923;          /* testo scuro, per leggibilità */
+  --colore-dettaglio: #91ccfe;      /* azzurro */
+
   --font-testo: "Commissioner", sans-serif;
   --font-titoli: "Tiny5 Duo", sans-serif;
 }
