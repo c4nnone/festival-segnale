@@ -193,7 +193,7 @@ h3 {
 
 .site-footer {
   padding: 1.25rem 0;
-  border-top: 1px solid #b7c0b7;
+  border-top: 1px solid var(--colore-dettaglio);
   color: #46564b;
   font-size: 0.875rem;
 }
