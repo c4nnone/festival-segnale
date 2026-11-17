@@ -284,3 +284,8 @@ nav[aria-label="Navigazione principale"] {
   z-index: 1000;
   background-color: var(--colore-dettaglio);
 }
+.festival-image,
+.event-card img,
+.galleria-sedi img {
+  filter: sepia(0.25) saturate(0.85) contrast(1.08);
+}
