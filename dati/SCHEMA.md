@@ -56,7 +56,7 @@ erDiagram
         string categoria
         string descrizione
         string immagine
-        string immagine\_alt
-        int sede\_id FK
+        string immagine_alt
+        int sede_id FK
     }
     ```
