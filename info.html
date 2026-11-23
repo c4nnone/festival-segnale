@@ -112,5 +112,31 @@
     },
   });
 </script>
+<script>
+  const messaggioMeteo = document.getElementById('messaggio-meteo');
+
+  fetch('https://api.open-meteo.com/v1/forecast?latitude=45.0703&longitude=7.6869&current=temperature_2m,wind_speed_10m&timezone=Europe%2FRome')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Impossibile caricare il meteo');
+      }
+      return response.json();
+    })
+    .then(dati => {
+      const attuale = dati.current;
+
+      if (!attuale) {
+        throw new Error('Dati meteo non disponibili');
+      }
+
+      messaggioMeteo.textContent =
+        `Temperatura: ${attuale.temperature_2m} ${dati.current_units.temperature_2m} · ` +
+        `Vento: ${attuale.wind_speed_10m} ${dati.current_units.wind_speed_10m} · ` +
+        `Ora del dato: ${attuale.time}`;
+    })
+    .catch(() => {
+      messaggioMeteo.textContent = 'Meteo temporaneamente non disponibile.';
+    });
+</script>
 </body>
 </html>
