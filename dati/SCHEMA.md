@@ -59,4 +59,4 @@ erDiagram
         string immagine_alt
         int sede_id FK
     }
-    ```
+```
